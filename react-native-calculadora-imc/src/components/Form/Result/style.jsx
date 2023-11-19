@@ -16,7 +16,7 @@ const styles = StyleSheet.create({
         fontWeight: 'bold'
     },
     information: {
-        fontSize: 18,
+        fontSize: 20,
         color: '#ff0043',
         fontWeight: 'bold'
     }

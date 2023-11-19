@@ -8,6 +8,7 @@ const Result = (props) => {
             
             <Text style={styles.information}>{props.message}</Text>
             <Text style={styles.numberImc}>{props.result}</Text>
+            <Text style={styles.information}>{props.condition}</Text>
             
         </View>
     )
