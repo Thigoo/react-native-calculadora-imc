@@ -5,11 +5,11 @@
 Para este projeto, escolhi clonar a tela principal do aplicativo OneBitHealth (template achado na internet). Abaixo estão os prints da tela original e da tela clonada.
 
 ## Tela Original:
-<img src='https://github.com/Thigoo/react-native-calculadora-imc/assets/90783156/660e6a88-9a95-47b2-972c-648dc3f0e87b' width=150></img>
+<img src='https://github.com/Thigoo/react-native-calculadora-imc/assets/90783156/660e6a88-9a95-47b2-972c-648dc3f0e87b' width=200></img>
 
 
 ## Tela Clonada:
-<img src='https://github.com/Thigoo/react-native-calculadora-imc/assets/90783156/84ce510a-27f7-47ad-b591-78bc2af6954b' width=150></img>
+<img src='https://github.com/Thigoo/react-native-calculadora-imc/assets/90783156/84ce510a-27f7-47ad-b591-78bc2af6954b' width=200></img>
 
 
 ## Funcionalidades Implementadas
