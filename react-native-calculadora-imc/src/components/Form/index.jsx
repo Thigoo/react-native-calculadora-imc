@@ -10,6 +10,13 @@ const Form = () => {
     const [messageImc, setMessageImc] = useState('Preencha o peso e altura')
     const [imc, setImc] = useState(null)
     const [TextButton, setTextButton] = useState('Calcular')
+    const [errorMessage, setErrorMessage] = useState(null)
+
+    const verificarImc = () => {
+        if (imc == null) {
+            setErrorMessage('campo obrigatório*')
+        }
+    }
 
     const imcCalculator = () => {
         return setImc((weight / (height * height)).toFixed(2))
@@ -22,8 +29,10 @@ const Form = () => {
             setWeight(null)
             setMessageImc("Seu imc é igual: ")
             setTextButton('Calcular novamente')
+            setErrorMessage(null)
             return
         }
+        verificarImc()
         setImc(null)
         setTextButton('Calcular')
         setMessageImc('Preencha o peso e altura')
@@ -41,6 +50,7 @@ const Form = () => {
                     onChangeText={setHeight}
                     value={height}
                 ></TextInput>
+                <Text style={styles.errorMessage}>{errorMessage}</Text>
                 <Text style={styles.formLabel}>Peso</Text>
                 <TextInput
                     style={styles.formInput}
@@ -50,11 +60,12 @@ const Form = () => {
                     }
                     value={weight}
                 ></TextInput>
+                <Text style={styles.errorMessage}>{errorMessage}</Text>
                 <TouchableOpacity
                     style={styles.buttonCalculator}
                     onPress={() => validation()}>
-                        <Text style={styles.textButtonCalculator}>{TextButton}</Text>
-                    </TouchableOpacity>
+                    <Text style={styles.textButtonCalculator}>{TextButton}</Text>
+                </TouchableOpacity>
             </View>
             <Result result={imc} message={messageImc} />
         </View>

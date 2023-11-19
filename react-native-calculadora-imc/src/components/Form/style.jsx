@@ -30,7 +30,7 @@ const styles = StyleSheet.create({
     backgroundColor: '#f6f6f6',
     height: 40,
     margin: 'auto',
-    paddingLeft: 10
+    paddingLeft: 15
   },
   buttonCalculator: {
     borderRadius: 50,
@@ -47,7 +47,12 @@ const styles = StyleSheet.create({
     fontSize: 20,
     color: '#fff'
   },
-
+  errorMessage: {
+    fontSize: 12,
+    color: 'red',
+    fontWeight: 'bold',
+    paddingLeft: 15
+  }
 })
 
 export default styles
