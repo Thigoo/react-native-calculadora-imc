@@ -26,7 +26,7 @@ Contém um Input vinculado a um State e um Botão TouchableOpacity para implemen
 Na tela clonada, um botão foi adicionado e está habilitado para navegar entre as rotas. Isso proporciona uma experiência de navegação simples e intuitiva.
 
 ## Input e TouchableOpacity
-Na Segunda Rota, um Input foi vinculado a um State para armazenar dados inseridos pelo usuário. Além disso, um Botão TouchableOpacity foi adicionado para outras funcionalidades, como a validação do Índice de Massa Corporal (IMC), condição do IMC de acordo com o resultado e validação dos inputs.
+Na Segunda Rota, um Input foi vinculado a um State para calcular dados inseridos pelo usuário. Além disso, um Botão TouchableOpacity foi adicionado para outras funcionalidades, como a validação do Índice de Massa Corporal (IMC), condição do IMC de acordo com o resultado e validação dos inputs.
 
 
 
